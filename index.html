@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+    <form name = "myform">
+        <input type = "text" class="input" name = "display"><br>
+        <div class = "item1"> <input type = "button" class="btnA" name = "btnsin" value="sin" onclick="fnsin()"> </div>
+        <div class = "item12"><input type = "button" class="btn" name = "btn1" value="1" onclick = "myclick('1')"></div>
+        <div class = "item13"><input type = "button" class="btn" name = "btn2" value="2" onclick = "myclick('2')"></div>
+        <div class = "item14"><input type = "button" class="btn" name = "btn3" value="3" onclick = "myclick('3')"></div>
+        <div class = "item15"><input type = "button" class="btnO" name = "btndel" value="⌫" onclick = "backspace()"></div>
+        <div class = "item2"><input type = "button" class="btnA" name = "btncos" value="cos" onclick="fncos()"></div>
+        <div class = "item17"><input type = "button" class="btn" name = "btn4" value="4" onclick = "myclick('4')"></div>
+        <div class = "item18"><input type = "button" class="btn" name = "btn5" value="5" onclick = "myclick('5')"></div>
+        <div class = "item19"><input type = "button" class="btn" name = "btn6" value="6" onclick = "myclick('6')"></div>
+        <div class = "item20"><input type = "button" class="btnO" name = "btnac" value="Clear" onclick="ac()"></div>
+        <div class = "item3"><input type = "button" class="btnA" name = "btntan" value="tan" onclick="fntan()"></div>
+        <div class = "item22"><input type = "button" class="btn" name = "btn7" value="7" onclick = "myclick('7')"></div>
+        <div class = "item23"><input type = "button" class="btn" name = "btn8" value="8" onclick = "myclick('8')"></div>
+        <div class = "item24"><input type = "button" class="btn" name = "btn9" value="9" onclick = "myclick('9')"></div> 
+        <div class = "item5"><input type = "button" class="btnA" name = "btnsqrt" value="√ " onclick="squarert()"></div>
+        <div class = "item4"><input type = "button" class="btnA" name = "btnsqr" value="x²" onclick="square()"></div> 
+        <div class = "item28"><input type = "button" class="btn" name = "btnzero" value="0" onclick = "myclick('0')"></div>
+        <div class = "item27"><input type = "button" class="btn" name = "btntwozero" value="00" onclick = "myclick('00')"></div>
+        <div class = "item16"><input type = "button" class="btnM" name = "btnsub" value="-" onclick = "myclick('-')"></div>
+        <div class = "item11"><input type = "button" class="btnM" name = "btndd" value="+" onclick = "myclick('+')"></div>
+        <div class = "item21"><input type = "button" class="btnM" name = "btnmul" value="*" onclick = "myclick('*')"></div>
+        <div class = "item26"><input type = "button" class="btnM" name = "btndiv" value="÷" onclick = "myclick('/')"></div>
+        <div class = "item29"><input type = "button" class="btnM" name = "btnpoint" value="." onclick = "myclick('.')"></div>
+        <div class = "item25"><input type = "button" class="btnM" name = "btnpercent" value="%" onclick = "percent('%')"></div>
+        <!-- <div class = "item25"><input type = "button" class="btnM" name = "btnpercent" value="%" onclick = "percent('%')"></div> -->
+        <div class = "item6"><input type = "button" class="btnA" name = "btnm" value="rad" onclick = "rad('rad')"></div>
+        <div class = "item30"><input type = "button" class="btnM" name = "btnegual" value="=" onclick = "eualto()"></div>
+        <div class = "item7"><input type = "button" class="btnA" name = "btnm" value="In" onclick = "log('log')"></div>
+        <div class = "item8"><input type = "button" class="btnA" name = "btnm" value="exp" onclick = "exp('exp')"></div>
+        <div class = "item9"><input type = "button" class="btnA" name = "btnm" value="deg" onclick = "deg('deg')"></div>
+        <div class = "item10"><input type = "button" class="btnA" name = "btnm" value="fac" onclick = "fac('fac')"></div>
+        <!-- <div class="item1"><input class="history" type="button" value="Open history"></div> -->
+
+
+    
+    </form>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
